@@ -3,8 +3,9 @@
 Project on compiler design and implementation
 -----
 
-* Topic Notes
-    * Specifying languages with regular expressions and context-free grammars
+* Topic Notes  
+    * [Specifying languages with regular expressions and context-free grammars](https://github.com/luckyeven/Java_Compiler/blob/main/Notes/01.Specifying%20languages%20with%20regular%20expressions%20and%20context-free%20grammars/README.md)  
+
     * shift-reduce parsing
     * Parse table construction
 * Project
