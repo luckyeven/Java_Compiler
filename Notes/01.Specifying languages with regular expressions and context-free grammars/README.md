@@ -79,7 +79,23 @@
 * Regular expression to automata conversion produces an NFA
 * Would like to have a DFA to make recognition algorithm simpler
 * Can convert from NFA to DFA(but DFA may be exponentially larger than NFA)
+# Parse Tess
+* Internal Nodes: Nonterminals 
+* Leaves: Terminals
+* Edges:
+    * from Nonterminal of LHS of production
+    * To Nodes from RHS of production Captures derivation of string
 
-## NFA to DFA construction
-* DFA hsa a state for each subset of states in NFA
-    * DFA start state corresponds to set of states reachable by following
+# Ambiguity in Grammar
+* Grammar is ambiguous if there are multiple derivations(multiple parse trees) for a single string
+* Derivation and parse tree usually reflect semantics of the program
+* Ambiguity in grammar often reflects ambiguity in semantics of language
+
+# Eliminating Ambiguity
+* hack the grammar: Conceptually,makes all operators associated to left
+
+# Precedence Violations
+* All operators associate to left
+* Violates precedence of * over + 
+    * 2-3*4 associates like <2-3>*4
+    
