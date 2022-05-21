@@ -98,4 +98,14 @@
 * All operators associate to left
 * Violates precedence of * over + 
     * 2-3*4 associates like <2-3>*4
-    
+
+# Summary
+* Lexical and Syntactic Levels of Structure
+    * Liex cal – regular expressi ons and automata
+    * Syntactic – grammars
+* Grammar ambiguities mbiguities
+    * Hacked grammars
+    * Abstract syntax trees
+* Generation versus Recognition Approaches
+    * Generation Generation more convenient convenient for specification specification
+    * Recognition required in implementation 
