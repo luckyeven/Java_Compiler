@@ -101,9 +101,9 @@
 
 # Summary
 * Lexical and Syntactic Levels of Structure
-    * Liex cal – regular expressi ons and automata
+    * Leix cal – regular expression and automata
     * Syntactic – grammars
-* Grammar ambiguities mbiguities
+* Grammar ambiguities ambiguities
     * Hacked grammars
     * Abstract syntax trees
 * Generation versus Recognition Approaches
